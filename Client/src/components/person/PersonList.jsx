@@ -2,6 +2,14 @@ import { Edit, Trash2 } from 'lucide-react';
 
 const PersonList = ({ peopleList, onPersonEdit, onPersonDelete }) => {
 
+    if (!peopleList || peopleList.length === 0) {
+        return(
+            <div className="text-center py-8 text-gray-500">
+                <p className="text-lg font-medium">No people found</p>
+                <p className="text-sm">Add some people using the form above.</p>
+            </div>
+        )
+    }
     console.log(peopleList, onPersonEdit, onPersonDelete);
 
     return (
@@ -60,14 +68,6 @@ const PersonList = ({ peopleList, onPersonEdit, onPersonDelete }) => {
                         
                     </tbody>
                 </table>
-
-                {/* No data */}
-                {PersonList.length<1 &&
-                    <div className="text-center py-8 text-gray-500">
-                        <p className="text-lg font-medium">No people found</p>
-                        <p className="text-sm">Add some people using the form above.</p>
-                    </div>
-                }
 
             </div>
         </div>
