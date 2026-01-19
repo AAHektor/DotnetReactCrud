@@ -146,3 +146,4 @@ E:\Side_Projects\DotnetReactCrud\Backend\obj\Debug\net10.0\refint\Backend.dll
 E:\Side_Projects\DotnetReactCrud\Backend\obj\Debug\net10.0\Backend.pdb
 E:\Side_Projects\DotnetReactCrud\Backend\obj\Debug\net10.0\Backend.genruntimeconfig.cache
 E:\Side_Projects\DotnetReactCrud\Backend\obj\Debug\net10.0\ref\Backend.dll
+E:\Side_Projects\DotnetReactCrud\Backend\obj\Debug\net10.0\Backend.sourcelink.json

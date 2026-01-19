@@ -23,6 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 /resources
+*.env
 
 # .NET Specific
 bin/
